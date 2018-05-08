@@ -1,0 +1,22 @@
+html{*overflow:auto;}
+body{padding-bottom:20px;}
+#main{margin:15px 10px 0 15px;}
+
+.nav-list{margin-bottom:20px;}
+.nav-list .nav-item{float:left;margin-right:30px; cursor:pointer;}
+.nav-list .nav-item a{color:#000;}
+.nav-list .nav-item a:hover{text-decoration:none;}
+.nav-list .nav-item .icon{width:70px;height:70px;}
+.nav-list .nav-item .title{ text-align:center; font-size:14px;}
+.nav-list .nav-item.desk .icon{ background:url(../../img/skin_/t01.png);}
+.nav-list .nav-item.news .icon{ background:url(../../img/skin_/t02.png);}
+.nav-list .nav-item.notice .icon{ background:url(../../img/skin_/t03.png);}
+.nav-list .nav-item.plan .icon{ background:url(../../img/skin_/t04.png);}
+.nav-list .nav-item.contacts .icon{ background:url(../../img/skin_/t05.png);}
+.nav-list .nav-item.mail .icon{ background:url(../../img/skin_/t06.png);}  
+.nav-list .nav-item.logs .icon { background:url(../../img/skin_/t07.png);} 
+.nav-list .nav-item.dosthings .icon{ background:url(../../img/skin_/t08.png);}   
+.nav-list .nav-item.fav .icon{ background:url(../../img/skin_/t09.png);}
+.nav-list .nav-item.browser  .icon{ background:url(../../img/skin_/t10.png);}
+
+

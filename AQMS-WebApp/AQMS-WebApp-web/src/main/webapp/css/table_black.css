@@ -1,0 +1,53 @@
+
+ div.alltable {  
+            border: 1px solid #000000;  
+            width: 95%; /*这个宽度可根据实际需要改变*/  
+            clear: right; 
+            margin: 20px;
+        }  
+          
+        /*表头在这个DIV内*/  
+        div.title_head {  
+            width: 100%; 
+            
+        }  
+        /*内容在这个DIV内*/  
+        div.table_content {  
+            width: 100%;  
+            overflow: scroll;  /*总是显示滚动条*/  
+            overflow-x: hidden; /*去掉横向滚动条*/  
+            height: 200px;  
+           
+        }  
+        div.table_head_list {  
+            float: left;  
+            margin-right: 17px;  
+        }  
+        div.table_content_list {  
+            float: left;  
+        }  
+          
+        .main_table {  
+            width: 100%;  
+            border: 1px solid #000000;  
+            border-collapse: collapse;  /*边线与旁边的合并*/    
+            table-layout:fixed;  
+        }  
+        .main_table tr th {    
+            border: 1px solid #000000;    
+            overflow: hidden;  /*超出长度的内容不显示*/    
+            /*word-wrap: break-word;  内容将在边界内换行,这里显示省略号,所以不需要了*/    
+            word-break: break-all;  /*字内断开*/    
+            text-overflow: ellipsis;  /*当对象内文本溢出时显示省略标记（…），省略标记插入的位置是最后一个字符*/    
+            white-space: nowrap;    
+        }    
+        /*单元格样式*/    
+        .main_table tr td {    
+            border: 1px solid #000000;    
+            overflow: hidden;    
+            /*word-wrap: break-word;  内容将在边界内换行,这里显示省略号,所以不需要了*/    
+            word-break: break-all;    
+            text-overflow: ellipsis;    
+            white-space: nowrap; 
+            text-align:center;   
+        }    

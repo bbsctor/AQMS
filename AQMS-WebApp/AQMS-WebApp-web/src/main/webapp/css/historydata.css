@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* 懒人之家 */
+body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, form, select, fieldset, table, img,  div, input,th,td { margin: 0; padding: 0; font-size: 16px; text-align:center; }
+body>div, form>div { margin: 0 auto; }
+div { text-align: left; }
+a img { border: 0; }font
+body { color: #666666; text-align: center; font-size:16px;}
+ul, ol, li { list-style-type: none; }
+a { outline-style: none; color: #666666; text-decoration: none; }
+a:hover { color: #0b488c; }
+a, area { blr:expression(this.onFocus=this.blur())
+}
+:focus { -moz-outline-style: none; }
+.clear { clear: both; }
+.hidden { display: none; }
+.block { display: block; }
+.left { float: left; }
+.right { float: right; }
+.tab { width: 90%; margin: 20px auto; }
+.tabhead { background: url(../img/history_m2line.jpg) repeat-x scroll left bottom transparent; height: 28px; }
+
+.tabhead ul li { background: url(../img/history_hover2.jpg) no-repeat scroll 0 0 transparent; cursor: pointer; float: left; height: 28px; line-height: 28px; margin-right: 5px; text-align: center; width: 85px; }
+.tabhead ul .tab_cutli { background: url(../img/history_hover1.jpg) no-repeat scroll 0 0 transparent; color: #05589C; font-weight: bold; }
+.tabcontent { border-bottom: 1px solid #DEDCDD; border-left: 1px solid #DEDCDD; border-right: 1px solid #DEDCDD; height: 157px; padding-top: 15px; height:500px; }
+
+
+

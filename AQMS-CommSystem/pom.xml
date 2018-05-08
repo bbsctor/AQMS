@@ -5,11 +5,11 @@
     <artifactId>AQMS</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>AQMS-CummSystem</artifactId>
+  <artifactId>AQMS-CommSystem</artifactId>
   <packaging>pom</packaging>
   <build/>
   <modules>
-  	<module>AQMS-CummSystem-HJT212</module>
-  	<module>AQMS-CummSystem-Server</module>
+  	<module>AQMS-CommSystem-HJT212</module>
+  	<module>AQMS-CommSystem-Server</module>
   </modules>
 </project>

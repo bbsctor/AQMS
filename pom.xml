@@ -7,7 +7,7 @@
   <build/>
   <modules>
   	<module>AQMS-WebApp</module>
-  	<module>AQMS-CummSystem</module>
+  	<module>AQMS-CommSystem</module>
   	<module>AQMS-DataStorage</module>
   </modules>
 </project>

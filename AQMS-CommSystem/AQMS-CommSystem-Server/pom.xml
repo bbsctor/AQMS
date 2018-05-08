@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>www.stkj.com</groupId>
-    <artifactId>AQMS-CummSystem</artifactId>
+    <artifactId>AQMS-CommSystem</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>AQMS-CummSystem-Server</artifactId>
+  <artifactId>AQMS-CommSystem-Server</artifactId>
   	<dependencies>
   		<dependency>
 		    <groupId>www.stkj.com</groupId>
-    		<artifactId>AQMS-CummSystem-HJT212</artifactId>
+    		<artifactId>AQMS-CommSystem-HJT212</artifactId>
     		<version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

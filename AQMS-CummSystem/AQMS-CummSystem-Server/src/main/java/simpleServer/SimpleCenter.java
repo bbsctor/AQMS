@@ -13,7 +13,7 @@ import app.center.custom.LocalProxyManager;
 import app.util.HJT212Communicate;
 
 public class SimpleCenter {
-	public static final int PORT = 60001;//����Ķ˿ں� 
+	public static final int PORT = 60001;
 	public LocalProxyManager proxyManager;
 	private final Executor exec = Executors.newFixedThreadPool(20);
 	//public LinkedBlockingQueue<CustomResponse> respList = new LinkedBlockingQueue<CustomResponse>();
@@ -36,9 +36,9 @@ public class SimpleCenter {
         try {  
             serverSocket = new ServerSocket(PORT);  
             while (true) {  
-                // һ���ж���, ���ʾ��������ͻ��˻��������  
+
                 Socket client = serverSocket.accept();  
-                // �����������  
+
                 exec.execute(new HandlerThread(client));  
             }  
         } catch (Exception e) {  
